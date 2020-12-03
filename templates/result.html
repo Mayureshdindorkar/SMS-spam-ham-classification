@@ -15,7 +15,6 @@
 		<div class="container">
 			<h2 class='container-heading'><span>Spam Detector</span> for Short Message Service (SMS)</h2>
 	        	<div class='description'>
-				<p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
 			</div>
 		</div>
 
@@ -23,20 +22,20 @@
 		<div class="results">
 			{% if prediction=='spam' %}
 				<h1>Prediction: <span class='danger'>Gotcha! This is a SPAM message.</span></h1>
-				<img class="gif" src="{{ url_for('static', filename='spam.webp') }}" alt="SPAM Image">
+				<img class="gif" src="{{ url_for('static', filename='spam_new.webp') }}" alt="SPAM Image">
 			{% elif prediction=='ham' %}
-				<h1>Prediction: <span class='safe'>Great! This is NOT a spam (HAM) message.</span></h1>
-				<img class="gif" src="{{ url_for('static', filename='not-spam.webp') }}" alt="Not a spam image">
+				<h1>Prediction: <span class='safe'>Great! This is HAM (Normal)) message.</span></h1>
+				<img class="gif" src="{{ url_for('static', filename='ham_new.webp') }}" alt="Not a spam image">
 			{% endif %}
 		</div>
 
 		<!-- Footer -->
         <div class='footer'>
-            <div class="contact">
-                <a target="_blank" href="https://github.com/Mayureshdindorkar"><i class="fab fa-github fa-lg contact-icon"></i></a>
-                <a target="_blank" href="https://linkedin.com/in/mayuresh-dindorkar-b87527168"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
-            </div>
-            <p class='footer-description'>Made with ❤️ by Anuj Vyas.</p>
+			<p>Group Members :</p>
+			<p class='footer-description'>Mayuresh R. Dindorkar BECOC320</p>
+			<p class='footer-description'>Piyush R. Chaudhari BECOC311</p>
+			<p class='footer-description'>Shalakha V. Bang BECOC305</p>
+			<p class='footer-description'>Rohit B. Bangar BECOC306</p>
         </div>
 
 	</body>
