@@ -18,7 +18,7 @@ body{
 .container{
 	padding: 30px;
 	position: relative;
-	background: linear-gradient(45deg, #ffffff, #ffffff, #f9f9f9, #eeeeee, #e0e4e1, #d7e1ec);
+	background: linear-gradient(45deg, #db5252, #eaec76, #7edb7e, #03e0fd, #4f4392, #e698e2);
 	background-size: 500% 500%;
 	animation: change-gradient 10s ease-in-out infinite;
 }
@@ -36,6 +36,8 @@ body{
 
 .container-heading{
     margin: 0;
+    color: #ffffff;
+    
 }
 
 .container span{
@@ -60,15 +62,17 @@ body{
 
 /* Predict Button */
 .my-cta-button{
-    background: #f9f9f9;
+  
+  background: #15e414;
     border: 2px solid #000000;
-    border-radius: 1000px;
+    border-radius: 10px;
     box-shadow: 3px 3px #8c8c8c;
     padding: 10px 36px;
     color: #000000;
     display: inline-block;
-    font: italic bold 20px/1 "Calibri", sans-serif;
+    font:  bold 25px/1 "Calibri", sans-serif;
     text-align: center;
+  
 }
 
 .my-cta-button:hover{
@@ -84,16 +88,21 @@ body{
 /* Footer */
 .footer{
     font-size: 14px;
+    	color: #ffffff;
+    	font-weight: bold;
 	padding: 20px;
 	flex-shrink: 0;
 	position: relative;
-	background: linear-gradient(45deg, #ffffff, #ffffff, #f9f9f9, #eeeeee, #e0e4e1, #d7e1ec);
+	background: linear-gradient(45deg, #db5252, #eaec76, #7edb7e, #03e0fd, #4f4392, #e698e2);
 	background-size: 500% 500%;
 	animation: change-gradient 10s ease-in-out infinite;
+	
 }
 
+
+
 .contact-icon{
-	color: #000000;
+	color: #ffffff;
 	padding: 7px;
 }
 
